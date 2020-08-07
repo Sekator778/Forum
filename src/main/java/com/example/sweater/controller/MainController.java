@@ -1,7 +1,7 @@
 package com.example.sweater.controller;
 
-import com.example.sweater.domain.Message;
-import com.example.sweater.domain.User;
+import com.example.sweater.model.Message;
+import com.example.sweater.model.User;
 import com.example.sweater.repos.MessageRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -26,16 +26,13 @@ public class MainController {
     @GetMapping("/main")
     public String main(@RequestParam(required = false, defaultValue = "") String filter, Model model) {
         Iterable<Message> messages = messageRepo.findAll();
-
         if (filter != null && !filter.isEmpty()) {
             messages = messageRepo.findByTag(filter);
         } else {
             messages = messageRepo.findAll();
         }
-
         model.addAttribute("messages", messages);
         model.addAttribute("filter", filter);
-
         return "main";
     }
 
@@ -46,13 +43,8 @@ public class MainController {
             @RequestParam String tag, Map<String, Object> model
     ) {
         Message message = new Message(text, tag, user);
-
         messageRepo.save(message);
-
-        Iterable<Message> messages = messageRepo.findAll();
-
-        model.put("messages", messages);
-
+        model.put("messages", messageRepo.findAll());
         return "main";
     }
 }

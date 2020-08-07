@@ -23,16 +23,62 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:simple_car" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cdae5bd-6935-465b-9c45-d11331945912" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sekator/GreetingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sekator/ServingWebContentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftlh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userList.ftlh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoNew/.idea/TodoNew.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TodoNew/TodoNew.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Car_Sale" beforeDir="false" afterPath="$PROJECT_DIR$/../Car_Sale" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sekator/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sekator/config/MvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sekator/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sekator/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sekator/controller/RegistrationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sekator/domain/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sekator/domain/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sekator/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sekator/repos/MessageRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sekator/repos/UserRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sekator/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/domain/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/model/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/repos/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/repos/MessageRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/repos/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/repos/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sekator/ServingWebContentApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sekator/config/MvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sekator/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sekator/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sekator/controller/RegistrationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sekator/model/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sekator/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sekator/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sekator/repos/MessageRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sekator/repos/UserRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/greeting.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sekator/GreetingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sekator/ServingWebContentApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +88,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -72,13 +120,36 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../job4j/games_oop_javafx2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sekator.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -92,22 +163,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServingWebContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Forum" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sekator.*" />
+          <option name="PATTERN" value="com.example.sweater.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sekator.ServingWebContentApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.sweater.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ServingWebContentApplication" />
+        <item itemvalue="Spring Boot.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -120,6 +191,8 @@
       <option name="presentableId" value="Default" />
       <updated>1596788649511</updated>
       <workItem from="1596788651440" duration="742000" />
+      <workItem from="1596789972619" duration="912000" />
+      <workItem from="1596791431068" duration="16229000" />
     </task>
     <servers />
   </component>
@@ -137,7 +210,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="simple_car" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -148,11 +221,91 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="332" y="67" key="SettingsEditor" timestamp="1596789068096">
+    <state x="555" y="175" width="1232" height="747" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596809912139">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state x="332" y="67" key="SettingsEditor/0.0.1920.1041@0.0.1920.1041" timestamp="1596789068096" />
+    <state x="555" y="175" width="1232" height="747" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1041@0.0.1920.1041" timestamp="1596809912139" />
+    <state x="721" y="131" width="468" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1596806865087">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state x="721" y="131" width="468" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1041@0.0.1920.1041" timestamp="1596806865087" />
+    <state x="627" y="210" width="655" height="618" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596809521716">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state x="627" y="210" width="655" height="618" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1041@0.0.1920.1041" timestamp="1596809521716" />
+    <state width="470" height="561" key="DebuggerActiveHint" timestamp="1596807207435">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state width="470" height="561" key="DebuggerActiveHint/0.0.1920.1041@0.0.1920.1041" timestamp="1596807207435" />
+    <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl" timestamp="1596803770983">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl/0.0.1920.1041@0.0.1920.1041" timestamp="1596803770983" />
+    <state width="1497" height="250" key="GridCell.Tab.0.bottom" timestamp="1596817060931">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state width="1497" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1041@0.0.1920.1041" timestamp="1596817060931" />
+    <state width="1497" height="250" key="GridCell.Tab.0.center" timestamp="1596817060931">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state width="1497" height="250" key="GridCell.Tab.0.center/0.0.1920.1041@0.0.1920.1041" timestamp="1596817060931" />
+    <state width="1497" height="250" key="GridCell.Tab.0.left" timestamp="1596817060930">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state width="1497" height="250" key="GridCell.Tab.0.left/0.0.1920.1041@0.0.1920.1041" timestamp="1596817060930" />
+    <state width="1497" height="250" key="GridCell.Tab.0.right" timestamp="1596817060931">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state width="1497" height="250" key="GridCell.Tab.0.right/0.0.1920.1041@0.0.1920.1041" timestamp="1596817060931" />
+    <state width="1497" height="250" key="GridCell.Tab.1.bottom" timestamp="1596817060932">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state width="1497" height="250" key="GridCell.Tab.1.bottom/0.0.1920.1041@0.0.1920.1041" timestamp="1596817060932" />
+    <state width="1497" height="250" key="GridCell.Tab.1.center" timestamp="1596817060932">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state width="1497" height="250" key="GridCell.Tab.1.center/0.0.1920.1041@0.0.1920.1041" timestamp="1596817060932" />
+    <state width="1497" height="250" key="GridCell.Tab.1.left" timestamp="1596817060932">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state width="1497" height="250" key="GridCell.Tab.1.left/0.0.1920.1041@0.0.1920.1041" timestamp="1596817060932" />
+    <state width="1497" height="250" key="GridCell.Tab.1.right" timestamp="1596817060932">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state width="1497" height="250" key="GridCell.Tab.1.right/0.0.1920.1041@0.0.1920.1041" timestamp="1596817060932" />
+    <state width="1497" height="250" key="GridCell.Tab.2.bottom" timestamp="1596816846213">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state width="1497" height="250" key="GridCell.Tab.2.bottom/0.0.1920.1041@0.0.1920.1041" timestamp="1596816846213" />
+    <state width="1497" height="250" key="GridCell.Tab.2.center" timestamp="1596816846206">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state width="1497" height="250" key="GridCell.Tab.2.center/0.0.1920.1041@0.0.1920.1041" timestamp="1596816846206" />
+    <state width="1497" height="250" key="GridCell.Tab.2.left" timestamp="1596816846206">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state width="1497" height="250" key="GridCell.Tab.2.left/0.0.1920.1041@0.0.1920.1041" timestamp="1596816846206" />
+    <state width="1497" height="250" key="GridCell.Tab.2.right" timestamp="1596816846212">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state width="1497" height="250" key="GridCell.Tab.2.right/0.0.1920.1041@0.0.1920.1041" timestamp="1596816846212" />
+    <state x="332" y="67" key="SettingsEditor" timestamp="1596790096202">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state x="332" y="67" key="SettingsEditor/0.0.1920.1041@0.0.1920.1041" timestamp="1596790096202" />
+    <state x="800" y="312" width="425" height="414" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1596810011715">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state x="800" y="312" width="425" height="414" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1041@0.0.1920.1041" timestamp="1596810011715" />
+    <state x="430" y="29" width="1050" height="980" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1596816431721">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state x="430" y="29" width="1050" height="980" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1041@0.0.1920.1041" timestamp="1596816431721" />
   </component>
 </project>
