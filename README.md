@@ -1,2 +1,2 @@
-# sweater
-Spring Boot learning
+# Forum project analogue Twitter
+Spring Boot learning 
