@@ -1,6 +1,11 @@
 <#import "parts/common.ftlh" as c>
 
 <@c.page>
-<div>Hello, user</div>
-<a href="/main">Main page</a>
+    <h5><strong>Hello, quest</strong></h5>
+    <div>
+        This is a simple forum.
+    </div>
+    <div align="right">
+        I love Java. Sekator tm.
+    </div>
 </@c.page>
