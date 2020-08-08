@@ -28,20 +28,26 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cdae5bd-6935-465b-9c45-d11331945912" name="Default Changelist" comment="roles + admin">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftlh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftlh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload/0ee1dfeb-5d83-4f67-b9e9-288db87c0ff9.logo.png" afterDir="false" />
+    <list default="true" id="9cdae5bd-6935-465b-9c45-d11331945912" name="Default Changelist" comment="add bootstrap">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/config/MailConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/service/MailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Init_DB.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__Init_DB.sql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/model/Message.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/greeting.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/repos/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/repos/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/service/UserSevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/service/UserSevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftlh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftlh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftlh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,17 +100,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources/db.migration" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sekator.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -158,7 +171,7 @@
       <workItem from="1596788651440" duration="742000" />
       <workItem from="1596789972619" duration="912000" />
       <workItem from="1596791431068" duration="18900000" />
-      <workItem from="1596869290825" duration="5969000" />
+      <workItem from="1596869290825" duration="13807000" />
     </task>
     <task id="LOCAL-00001" summary="roles + admin">
       <created>1596817087806</created>
@@ -167,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596817087806</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add bootstrap">
+      <created>1596876074758</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596876074758</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,17 +220,18 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="roles + admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="roles + admin" />
+    <MESSAGE value="add bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bootstrap" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="175" width="1232" height="747" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596809912139">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
     <state x="555" y="175" width="1232" height="747" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1041@0.0.1920.1041" timestamp="1596809912139" />
-    <state x="721" y="131" width="468" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1596818093341">
+    <state x="721" y="131" width="468" height="777" key="#com.intellij.ide.util.MemberChooser" timestamp="1596876228392">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state x="721" y="131" width="468" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1041@0.0.1920.1041" timestamp="1596818093341" />
+    <state x="721" y="131" width="468" height="777" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1041@0.0.1920.1041" timestamp="1596876228392" />
     <state x="627" y="210" width="655" height="618" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596809521716">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
@@ -223,38 +244,38 @@
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
     <state x="690" y="220" width="530" height="598" key="FileChooserDialogImpl/0.0.1920.1041@0.0.1920.1041" timestamp="1596803770983" />
-    <state width="1497" height="236" key="GridCell.Tab.0.bottom" timestamp="1596875447583">
+    <state width="1797" height="315" key="GridCell.Tab.0.bottom" timestamp="1596887491609">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state width="1497" height="236" key="GridCell.Tab.0.bottom/0.0.1920.1041@0.0.1920.1041" timestamp="1596875447583" />
-    <state width="1497" height="236" key="GridCell.Tab.0.center" timestamp="1596875447582">
+    <state width="1797" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1041@0.0.1920.1041" timestamp="1596887491609" />
+    <state width="1797" height="315" key="GridCell.Tab.0.center" timestamp="1596887491608">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state width="1497" height="236" key="GridCell.Tab.0.center/0.0.1920.1041@0.0.1920.1041" timestamp="1596875447582" />
-    <state width="1497" height="236" key="GridCell.Tab.0.left" timestamp="1596875447581">
+    <state width="1797" height="315" key="GridCell.Tab.0.center/0.0.1920.1041@0.0.1920.1041" timestamp="1596887491608" />
+    <state width="1797" height="315" key="GridCell.Tab.0.left" timestamp="1596887491608">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state width="1497" height="236" key="GridCell.Tab.0.left/0.0.1920.1041@0.0.1920.1041" timestamp="1596875447581" />
-    <state width="1497" height="236" key="GridCell.Tab.0.right" timestamp="1596875447582">
+    <state width="1797" height="315" key="GridCell.Tab.0.left/0.0.1920.1041@0.0.1920.1041" timestamp="1596887491608" />
+    <state width="1797" height="315" key="GridCell.Tab.0.right" timestamp="1596887491609">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state width="1497" height="236" key="GridCell.Tab.0.right/0.0.1920.1041@0.0.1920.1041" timestamp="1596875447582" />
-    <state width="1497" height="236" key="GridCell.Tab.1.bottom" timestamp="1596875447584">
+    <state width="1797" height="315" key="GridCell.Tab.0.right/0.0.1920.1041@0.0.1920.1041" timestamp="1596887491609" />
+    <state width="1797" height="315" key="GridCell.Tab.1.bottom" timestamp="1596887491610">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state width="1497" height="236" key="GridCell.Tab.1.bottom/0.0.1920.1041@0.0.1920.1041" timestamp="1596875447584" />
-    <state width="1497" height="236" key="GridCell.Tab.1.center" timestamp="1596875447584">
+    <state width="1797" height="315" key="GridCell.Tab.1.bottom/0.0.1920.1041@0.0.1920.1041" timestamp="1596887491610" />
+    <state width="1797" height="315" key="GridCell.Tab.1.center" timestamp="1596887491609">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state width="1497" height="236" key="GridCell.Tab.1.center/0.0.1920.1041@0.0.1920.1041" timestamp="1596875447584" />
-    <state width="1497" height="236" key="GridCell.Tab.1.left" timestamp="1596875447583">
+    <state width="1797" height="315" key="GridCell.Tab.1.center/0.0.1920.1041@0.0.1920.1041" timestamp="1596887491609" />
+    <state width="1797" height="315" key="GridCell.Tab.1.left" timestamp="1596887491609">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state width="1497" height="236" key="GridCell.Tab.1.left/0.0.1920.1041@0.0.1920.1041" timestamp="1596875447583" />
-    <state width="1497" height="236" key="GridCell.Tab.1.right" timestamp="1596875447584">
+    <state width="1797" height="315" key="GridCell.Tab.1.left/0.0.1920.1041@0.0.1920.1041" timestamp="1596887491609" />
+    <state width="1797" height="315" key="GridCell.Tab.1.right" timestamp="1596887491610">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state width="1497" height="236" key="GridCell.Tab.1.right/0.0.1920.1041@0.0.1920.1041" timestamp="1596875447584" />
+    <state width="1797" height="315" key="GridCell.Tab.1.right/0.0.1920.1041@0.0.1920.1041" timestamp="1596887491610" />
     <state width="1497" height="250" key="GridCell.Tab.2.bottom" timestamp="1596816846213">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
@@ -275,10 +296,10 @@
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
     <state x="332" y="67" key="SettingsEditor/0.0.1920.1041@0.0.1920.1041" timestamp="1596790096202" />
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1596817096580">
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2" timestamp="1596876078836">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
-    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1041@0.0.1920.1041" timestamp="1596817096580" />
+    <state x="455" y="192" width="1000" height="654" key="Vcs.Push.Dialog.v2/0.0.1920.1041@0.0.1920.1041" timestamp="1596876078836" />
     <state x="800" y="312" width="425" height="414" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1596810011715">
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
@@ -287,5 +308,9 @@
       <screen x="0" y="0" width="1920" height="1041" />
     </state>
     <state x="430" y="29" width="1050" height="980" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1041@0.0.1920.1041" timestamp="1596816431721" />
+    <state x="627" y="232" width="655" height="575" key="extract.method.dialog" timestamp="1596888719692">
+      <screen x="0" y="0" width="1920" height="1041" />
+    </state>
+    <state x="627" y="232" width="655" height="575" key="extract.method.dialog/0.0.1920.1041@0.0.1920.1041" timestamp="1596888719692" />
   </component>
 </project>
