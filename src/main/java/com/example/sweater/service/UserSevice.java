@@ -51,8 +51,7 @@ public class UserSevice implements UserDetailsService {
     private void sendMessage(User user) {
         if (!StringUtils.isEmpty(user.getEmail())) {
             String message = String.format(
-                    "Hello, %s! \n" +
-                            "Welcome to Forum Sekator`s. Please, visit next link: \n http://localhost:8081/activate/%s",
+                    "Hello, %s! \n" + "Welcome to Forum Sekator`s. Please, visit next link: \n http://localhost:8081/activate/%s",
                     user.getUsername(),
                     user.getActivationCode()
 
@@ -92,8 +91,7 @@ public class UserSevice implements UserDetailsService {
 
     public void updateProfile(User user, String password, String email) {
         String userEmail = user.getEmail();
-        boolean isEmailChanged = (email != null && !email.equals(userEmail)) ||
-                (userEmail != null && !userEmail.equals(email));
+        boolean isEmailChanged = (email != null && !email.equals(userEmail)) || (userEmail != null && !userEmail.equals(email));
         if (isEmailChanged) {
             user.setEmail(email);
             if (!StringUtils.isEmpty(email)) {

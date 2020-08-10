@@ -49,7 +49,7 @@ public class RegistrationController {
         CaptchaResponseDto response = restTemplate.postForObject(url, Collections.emptyList(), CaptchaResponseDto.class);
         boolean isPasswordDifferent = user.getPassword() != null && !user.getPassword().equals(passwordConfirm);
 
-        if(isPasswordDifferent){
+        if (isPasswordDifferent) {
             model.addAttribute("passwordError", "Passwords are different!");
         }
 
