@@ -56,7 +56,7 @@ public class MainController {
     ) throws IOException {
         message.setAuthor(user);
         if (bindingResult.hasErrors()) {
-            Map<String, String> errorMap = ControlerUtils.getErrors(bindingResult);
+            Map<String, String> errorMap = ControllerUtils.getErrors(bindingResult);
             model.mergeAttributes(errorMap);
             model.addAttribute("message", message);
         } else {

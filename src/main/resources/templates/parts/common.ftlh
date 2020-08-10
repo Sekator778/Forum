@@ -4,22 +4,17 @@
     <head>
         <meta charset="UTF-8">
         <title>Forum NEW</title>
-        <link rel="stylesheet" href="/static/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
               integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
               crossorigin="anonymous">
-        <style>
-            body {
-                background: #c5fefa
-            }
-        </style>
+        <link rel="stylesheet" href="../../static/style.css">
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
     <body>
     <#include "navbar.ftlh">
     <div class="container mt-5">
-
         <#nested>
     </div>
     <!-- Optional JavaScript -->

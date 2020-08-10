@@ -1,11 +1,12 @@
 <#import "parts/common.ftlh" as c>
 <@c.page>
-    <h2>List of users</h2>
-    <table>
-        <thead>
+    <h2 align="center">List of users</h2>
+    <table class="table">
+        <thead class="thead-dark">
         <tr>
-            <th>Name</th>
-            <th>Role</th>
+            <th scope="col">Name</th>
+            <th scope="col">Role</th>
+            <th scope="col">Edit</th>
         </tr>
         </thead>
         <tbody>
@@ -19,6 +20,4 @@
 
         </tbody>
     </table>
-
-    <a href="/main">Main page</a>
 </@c.page>
