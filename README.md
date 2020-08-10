@@ -1,2 +1,2 @@
-# Forum project analogue Twitter
+# Forum 
 Spring Boot learning 
