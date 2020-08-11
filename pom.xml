@@ -6,7 +6,7 @@
 
     <groupId>org.sekator</groupId>
     <artifactId>Forum</artifactId>
-    <version>1.0</version>
+    <version>1</version>
     <name>serving-web-content</name>
 
     <parent>
