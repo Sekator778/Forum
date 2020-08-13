@@ -1,6 +1,7 @@
 com/example/sweater/controller/MainController.class
 com/example/sweater/config/MvcConfig.class
 com/example/sweater/model/Role.class
+com/example/sweater/service/UserService.class
 com/example/sweater/repos/UserRepo.class
 com/example/sweater/config/WebSecurityConfig.class
 com/example/sweater/config/MailConfig.class
@@ -13,4 +14,3 @@ com/example/sweater/model/User.class
 com/example/sweater/repos/MessageRepo.class
 com/example/sweater/controller/ControllerUtils.class
 com/example/sweater/service/MailSender.class
-com/example/sweater/service/UserSevice.class

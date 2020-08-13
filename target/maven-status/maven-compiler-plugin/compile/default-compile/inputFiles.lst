@@ -1,9 +1,9 @@
 /home/sekator/projects/Forum/src/main/java/com/example/sweater/controller/RegistrationController.java
 /home/sekator/projects/Forum/src/main/java/com/example/sweater/model/Message.java
-/home/sekator/projects/Forum/src/main/java/com/example/sweater/service/UserSevice.java
 /home/sekator/projects/Forum/src/main/java/com/example/sweater/config/MailConfig.java
 /home/sekator/projects/Forum/src/main/java/com/example/sweater/model/dto/CaptchaResponseDto.java
 /home/sekator/projects/Forum/src/main/java/com/example/sweater/repos/MessageRepo.java
+/home/sekator/projects/Forum/src/main/java/com/example/sweater/service/UserService.java
 /home/sekator/projects/Forum/src/main/java/com/example/sweater/model/Role.java
 /home/sekator/projects/Forum/src/main/java/com/example/sweater/Application.java
 /home/sekator/projects/Forum/src/main/java/com/example/sweater/model/User.java
