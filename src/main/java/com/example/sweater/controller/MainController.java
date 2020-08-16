@@ -3,6 +3,8 @@ package com.example.sweater.controller;
 import com.example.sweater.model.Message;
 import com.example.sweater.model.User;
 import com.example.sweater.repos.MessageRepo;
+import com.example.sweater.service.MessageService;
+import com.example.sweater.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -19,6 +21,7 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.validation.Valid;
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
@@ -27,6 +30,10 @@ import java.util.UUID;
 public class MainController {
     @Autowired
     private MessageRepo messageRepo;
+    @Autowired
+    private UserService userService;
+    @Autowired
+    private MessageService messageService;
 
     @Value("${upload.path}")
     private String uploadPath;
@@ -41,9 +48,11 @@ public class MainController {
         Iterable<Message> messages;
 
         if (filter != null && !filter.isEmpty()) {
-            messages = messageRepo.findByTag(filter);
+//            messages = messageRepo.findByTag(filter);
+            messages = messageService.findByTag(filter);
         } else {
-            messages = messageRepo.findAll();
+            messages = messageService.findAll();
+//            messages = messageRepo.findAll();
         }
 
         model.addAttribute("messages", messages);

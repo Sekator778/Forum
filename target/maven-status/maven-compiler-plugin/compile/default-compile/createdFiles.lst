@@ -11,6 +11,7 @@ com/example/sweater/controller/UserController.class
 com/example/sweater/model/dto/CaptchaResponseDto.class
 com/example/sweater/controller/RegistrationController.class
 com/example/sweater/model/User.class
+com/example/sweater/service/MessageService.class
 com/example/sweater/repos/MessageRepo.class
 com/example/sweater/controller/ControllerUtils.class
 com/example/sweater/service/MailSender.class
